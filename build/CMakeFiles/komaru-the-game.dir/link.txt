@@ -1,1 +1,0 @@
-clang -g "CMakeFiles/komaru-the-game.dir/src/main.c.o" -o komaru-the-game  /usr/lib/libraylib.so -lm -lpthread -ldl -lrt -lX11 -L/usr/lib -lraylib
