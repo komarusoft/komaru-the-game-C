@@ -1,0 +1,4 @@
+/home/tunay/komaru-the-game-C/scripts/build/CMakeFiles/core.dir
+/home/tunay/komaru-the-game-C/scripts/build/CMakeFiles/komaru-the-game.dir
+/home/tunay/komaru-the-game-C/scripts/build/CMakeFiles/edit_cache.dir
+/home/tunay/komaru-the-game-C/scripts/build/CMakeFiles/rebuild_cache.dir

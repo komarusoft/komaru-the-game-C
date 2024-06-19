@@ -1,0 +1,1 @@
+clang -O3 -DNDEBUG "CMakeFiles/komaru-the-game.dir/src/main.c.o" -o komaru-the-game  libcore.a /usr/lib/libraylib.so -lm -lpthread -ldl -lrt -lX11 -L/usr/lib -lraylib
