@@ -1,5 +1,6 @@
 #include "raylib.h"
-
+#include "../include/about.h"
+#include "../include/raygui.h"
 typedef enum {
     MENU_START,
     MENU_ABOUT,
@@ -19,7 +20,7 @@ int main(void)
     MenuOption selectedOption = MENU_NONE;
     MenuOption hoveredOption = MENU_NONE;
     
-    while (!WindowShouldClose())    
+        while (!WindowShouldClose())    
     {
         Vector2 mousePoint = GetMousePosition();
         
@@ -42,7 +43,7 @@ int main(void)
         if (selectedOption == MENU_START) {
      
         } else if (selectedOption == MENU_ABOUT) {
- 
+            about_us();
         } else if (selectedOption == MENU_SETTINGS) {
  
         } else if (selectedOption == MENU_EXIT) {
@@ -68,6 +69,5 @@ int main(void)
         EndDrawing();
     }
     CloseWindow();
-// asd
     return 0;
 }
